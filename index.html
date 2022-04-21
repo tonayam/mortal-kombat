@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mortal Kombat</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section>
+      <audio
+        src="./14 Clash of Kahns.mp3"
+        type="audio/mpeg"
+        loop
+        autoplay
+      ></audio>
+      <div class="background">
+        <!-- NAVBAR START -->
+
+        <div class="nav">
+          <h3>select a player</h3>
+          <ul>
+            <li>home</li>
+            <li class="selected">players</li>
+            <li>support</li>
+          </ul>
+        </div>
+
+        <!-- NAVBAR END -->
+
+        <!-- CHARACTER CONTAINER START -->
+        <div class="character-container">
+          <div class="name">
+            <h3></h3>
+            <h3 class="active"></h3>
+            <h3></h3>
+          </div>
+          <div class="character">
+            <div class="character-stats">
+              <div class="health">
+                <div class="icon">
+                  <img src="./images/health.png" alt="" />
+                </div>
+                <h2 class="stat"></h2>
+              </div>
+              <div class="strenght">
+                <div class="icon">
+                  <img src="./images/strenght.png" alt="" />
+                </div>
+                <h2 class="stat"></h2>
+              </div>
+              <div class="attack">
+                <div class="icon">
+                  <img src="./images/attack.png" alt="" />
+                </div>
+                <h2 class="stat"></h2>
+              </div>
+              <div class="speed">
+                <div class="icon">
+                  <img src="./images/speed.png" alt="" />
+                </div>
+                <h2 class="stat"></h2>
+              </div>
+              <div class="picture">
+                <img src="./images/logo.gif" alt="" />
+
+                <div class="pic-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CHARACTER CONTAINER END -->
+
+        <!-- BOTTOM CONTAINER FOR CHARACTER SELECT START -->
+
+        <div class="character-select">
+          <div class="player">
+            <img src="./images/revenant-jade.png" alt="" class="jade" />
+          </div>
+          <div class="player">
+            <img src="./images/khan.png" alt="" class="khan" />
+          </div>
+          <div class="player">
+            <img src="./images/sub-zero.png" alt="" class="sub-zero" />
+          </div>
+          <div class="player">
+            <img src="./images/jax.png" alt="" class="jax" />
+          </div>
+          <div class="player">
+            <img src="./images/scorpion.png" alt="" class="scorpion" />
+          </div>
+          <div class="player">
+            <img src="./images/cassie.png" alt="" class="cassie" />
+          </div>
+        </div>
+
+        <!-- BOTTOM CONTAINER FOR CHARACTER SELECT END -->
+      </div>
+    </section>
+    <script src="./mk.js"></script>
+  </body>
+</html>
