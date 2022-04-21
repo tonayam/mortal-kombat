@@ -3,7 +3,7 @@ const players = [
     name: `Jade`,
     next: `Shoa Khan`,
     prev: ``,
-    picture: `<img src="./images/jade-gif.webp" alt="" class="jade" />`,
+    picture: `<img src="./jade-gif.webp" alt="" class="jade" />`,
     health: `Health: 100%`,
     strenght: `Strenght: 90%`,
     attack: `Strenght: 95%`,
@@ -13,7 +13,7 @@ const players = [
     name: `Shoa Khan`,
     next: `Sub Zero`,
     prev: `Jade`,
-    picture: `<img src="./images/khan-gif.webp" alt="" class="jade" />`,
+    picture: `<img src="./khan-gif.webp" alt="" class="jade" />`,
     health: `Health: 100%`,
     strenght: `Strenght: 100%`,
     attack: `Strenght: 100%`,
@@ -23,7 +23,7 @@ const players = [
     name: `Sub Zero`,
     next: `Jax`,
     prev: `Shoa Khan`,
-    picture: `<img src="./images/sub-zero-gif.webp" alt="" class="jade" />`,
+    picture: `<img src="./sub-zero-gif.webp" alt="" class="jade" />`,
     health: `Health: 100%`,
     strenght: `Strenght: 97%`,
     attack: `Strenght: 96%`,
@@ -33,7 +33,7 @@ const players = [
     name: `Jax`,
     next: `Scorpion`,
     prev: `Sub Zero`,
-    picture: `<img src="./images/jax-gif.webp" alt="" class="jade" />`,
+    picture: `<img src="./jax-gif.webp" alt="" class="jade" />`,
     health: `Health: 100%`,
     strenght: `Strenght: 100%`,
     attack: `Strenght: 93%`,
@@ -43,7 +43,7 @@ const players = [
     name: `Scorpion`,
     next: `Cassie Cage`,
     prev: `Jax`,
-    picture: `<img src="./images/scorpion-gif.webp" alt="" class="jade" />`,
+    picture: `<img src="./scorpion-gif.webp" alt="" class="jade" />`,
     health: `Health: 100%`,
     strenght: `Strenght: 94%`,
     attack: `Strenght: 96%`,
@@ -53,7 +53,7 @@ const players = [
     name: `Cassie Cage`,
     next: ``,
     prev: `Scorpion`,
-    picture: `<img src="./images/cassie-gif.webp" alt="" class="jade" />`,
+    picture: `<img src="./cassie-gif.webp" alt="" class="jade" />`,
     health: `Health: 100%`,
     strenght: `Strenght: 85%`,
     attack: `Strenght: 92%`,
@@ -106,7 +106,7 @@ jade.addEventListener(`click`, function () {
   setTimeout(changeImage, 2000);
   function changeImage() {
     const player = players[currentPlayer];
-    picture.innerHTML = `<img src="./images/revenant-jade.png" alt="" class="jade" />`;
+    picture.innerHTML = `<img src="./revenant-jade.png" alt="" class="jade" />`;
   }
 });
 
@@ -117,7 +117,7 @@ khan.addEventListener(`click`, function () {
   setTimeout(changeImage, 2000);
   function changeImage() {
     const player = players[currentPlayer];
-    picture.innerHTML = `<img src="./images/khan.png" alt="" class="jade" />`;
+    picture.innerHTML = `<img src="./khan.png" alt="" class="jade" />`;
   }
 });
 
@@ -128,7 +128,7 @@ subZero.addEventListener(`click`, function () {
   setTimeout(changeImage, 1800);
   function changeImage() {
     const player = players[currentPlayer];
-    picture.innerHTML = `<img src="./images/sub-zero.png" alt="" class="jade" />`;
+    picture.innerHTML = `<img src="./sub-zero.png" alt="" class="jade" />`;
   }
 });
 
@@ -139,7 +139,7 @@ jax.addEventListener(`click`, function () {
   setTimeout(changeImage, 4000);
   function changeImage() {
     const player = players[currentPlayer];
-    picture.innerHTML = `<img src="./images/jax.png" alt="" class="jade" />`;
+    picture.innerHTML = `<img src="./jax.png" alt="" class="jade" />`;
   }
 });
 
@@ -150,7 +150,7 @@ scorpion.addEventListener(`click`, function () {
   setTimeout(changeImage, 3100);
   function changeImage() {
     const player = players[currentPlayer];
-    picture.innerHTML = `<img src="./images/scorpion.png" alt="" class="jade" />`;
+    picture.innerHTML = `<img src="./scorpion.png" alt="" class="jade" />`;
   }
 });
 
@@ -161,6 +161,6 @@ cassie.addEventListener(`click`, function () {
   setTimeout(changeImage, 4000);
   function changeImage() {
     const player = players[currentPlayer];
-    picture.innerHTML = `<img src="./images/cassie.png" alt="" class="jade" />`;
+    picture.innerHTML = `<img src="./cassie.png" alt="" class="jade" />`;
   }
 });
